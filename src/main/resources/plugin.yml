@@ -1,0 +1,4 @@
+name: KrisKraft-Emotes
+version: '${project.version}'
+main: com.wmsp0.kriskraftemotes.KrisKraftEmotes
+api-version: 1.18
