@@ -1,4 +1,23 @@
 name: KrisKraft-Emotes
-version: '${project.version}'
+version: '1.0.0'
 main: com.wmsp0.kriskraftemotes.KrisKraftEmotes
 api-version: 1.18
+description: "Adds Twitch emotes to your Minecraft server"
+author: Q_________Q
+website: https://github.com/WMSP0
+
+commands:
+  emotes:
+    description: The main plugin command to access sub-commands
+    permission: emotes.use
+
+permissions:
+  emotes.use:
+    description: Allows you to use the emotes command
+    default: op
+  emotes.display:
+    description: Allows you to view all the available emotes
+    default: op
+  emotes.reload:
+    description: Allows you to reload the plugin config
+    default: op
